@@ -1,0 +1,11 @@
+{
+  "researcher@amrsentinel.org": {
+    "id": "usr_default_001",
+    "full_name": "Dr. Sarah Chen, Ph.D.",
+    "email": "researcher@amrsentinel.org",
+    "password_hash": "$2b$12$NmiPw3zYgE7Mm90b0LvpfehmrdGzEtgt53ryhS1umqaDhA8cqAfJW",
+    "role": "Principal Microbiology Investigator",
+    "institution": "Institute of Antimicrobial Genomics",
+    "created_at": "2026-10-08T08:41:56.227776"
+  }
+}

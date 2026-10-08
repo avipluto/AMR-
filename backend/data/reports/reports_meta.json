@@ -1,0 +1,28 @@
+[
+  {
+    "report_id": "REP-5BCDEC0C",
+    "filename": "AMR_Report_REP-5BCDEC0C.pdf",
+    "report_type": "AST Plate Phenotypic Report",
+    "organism": "Escherichia coli",
+    "isolate_id": "ISO-202610-EC0C",
+    "user_id": "usr_default_001",
+    "user_name": "Dr. Sarah Chen, Ph.D.",
+    "created_at": "2026-10-08T08:49:10.507110",
+    "antibiotics_tested": 3,
+    "resistant_count": 2,
+    "susceptible_count": 1
+  },
+  {
+    "report_id": "REP-A82EAE32",
+    "filename": "AMR_Report_REP-A82EAE32.pdf",
+    "report_type": "AST Plate Phenotypic Report",
+    "organism": "Escherichia coli",
+    "isolate_id": "ISO-202610-AE32",
+    "user_id": "usr_default_001",
+    "user_name": "Dr. Sarah Chen, Ph.D.",
+    "created_at": "2026-10-08T08:44:13.341424",
+    "antibiotics_tested": 3,
+    "resistant_count": 2,
+    "susceptible_count": 1
+  }
+]

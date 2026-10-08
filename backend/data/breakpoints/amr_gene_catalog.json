@@ -1,0 +1,92 @@
+[
+  {
+    "gene_symbol": "blaTEM-1",
+    "gene_family": "Beta-lactamase (TEM)",
+    "resistance_mechanism": "Enzymatic inactivation via Class A beta-lactamase",
+    "drug_class": "Penicillins, early Cephalosporins",
+    "associated_antibiotics": ["Ampicillin", "Amoxicillin"],
+    "evidence_level": "High (well-characterized resistance marker)",
+    "database_source": "NCBI AMRFinderPlus / CARD"
+  },
+  {
+    "gene_symbol": "blaCTX-M-15",
+    "gene_family": "Extended-Spectrum Beta-Lactamase (ESBL)",
+    "resistance_mechanism": "Hydrolysis of extended-spectrum oxyimino-cephalosporins",
+    "drug_class": "Cephalosporins, Monobactams",
+    "associated_antibiotics": ["Ceftriaxone", "Cefotaxime", "Ceftazidime", "Aztreonam"],
+    "evidence_level": "High (well-characterized ESBL)",
+    "database_source": "NCBI AMRFinderPlus / CARD"
+  },
+  {
+    "gene_symbol": "blaKPC-2",
+    "gene_family": "Carbapenemase (KPC)",
+    "resistance_mechanism": "Hydrolysis of carbapenems, cephalosporins, and penicillins",
+    "drug_class": "Carbapenems, Beta-lactams",
+    "associated_antibiotics": ["Meropenem", "Imipenem", "Ertapenem"],
+    "evidence_level": "High (major carbapenemase)",
+    "database_source": "NCBI AMRFinderPlus / CARD"
+  },
+  {
+    "gene_symbol": "blaNDM-1",
+    "gene_family": "Metallo-Beta-Lactamase (NDM)",
+    "resistance_mechanism": "Zinc-dependent hydrolysis of carbapenems and beta-lactams (except aztreonam)",
+    "drug_class": "Carbapenems, Cephalosporins, Penicillins",
+    "associated_antibiotics": ["Meropenem", "Imipenem"],
+    "evidence_level": "High (MBL carbapenemase)",
+    "database_source": "NCBI AMRFinderPlus / CARD"
+  },
+  {
+    "gene_symbol": "gyrA_S83L",
+    "gene_family": "DNA Gyrase Subunit A Mutation",
+    "resistance_mechanism": "Target alteration reducing fluoroquinolone binding affinity",
+    "drug_class": "Fluoroquinolones",
+    "associated_antibiotics": ["Ciprofloxacin", "Levofloxacin"],
+    "evidence_level": "High (canonical QRDR mutation)",
+    "database_source": "CARD / ResFinder"
+  },
+  {
+    "gene_symbol": "parC_S80I",
+    "gene_family": "DNA Topoisomerase IV Subunit A Mutation",
+    "resistance_mechanism": "Target alteration conferring high-level fluoroquinolone resistance",
+    "drug_class": "Fluoroquinolones",
+    "associated_antibiotics": ["Ciprofloxacin", "Levofloxacin"],
+    "evidence_level": "High (canonical QRDR secondary mutation)",
+    "database_source": "CARD / ResFinder"
+  },
+  {
+    "gene_symbol": "aac(6')-Ib-cr",
+    "gene_family": "Aminoglycoside / Fluoroquinolone Acetyltransferase",
+    "resistance_mechanism": "Enzymatic modification of aminoglycosides and ciprofloxacin",
+    "drug_class": "Aminoglycosides, Fluoroquinolones",
+    "associated_antibiotics": ["Gentamicin", "Tobramycin", "Ciprofloxacin"],
+    "evidence_level": "High (bifunctional modifying enzyme)",
+    "database_source": "CARD / AMRFinderPlus"
+  },
+  {
+    "gene_symbol": "tet(A)",
+    "gene_family": "Tetracycline Efflux Pump",
+    "resistance_mechanism": "Major facilitator superfamily active efflux of tetracyclines",
+    "drug_class": "Tetracyclines",
+    "associated_antibiotics": ["Tetracycline", "Doxycycline"],
+    "evidence_level": "High (efflux pump)",
+    "database_source": "CARD / ResFinder"
+  },
+  {
+    "gene_symbol": "mecA",
+    "gene_family": "PBP2a Transpeptidase",
+    "resistance_mechanism": "Expression of low-affinity penicillin-binding protein 2a (MRSA determinant)",
+    "drug_class": "Beta-lactams (except fifth-generation)",
+    "associated_antibiotics": ["Oxacillin", "Methicillin", "Ampicillin"],
+    "evidence_level": "High (definitive MRSA genotypic marker)",
+    "database_source": "CARD / ResFinder"
+  },
+  {
+    "gene_symbol": "vanA",
+    "gene_family": "Vancomycin Resistance Gene Cluster",
+    "resistance_mechanism": "Cell wall peptidoglycan precursor synthesis ending in D-Ala-D-Lac instead of D-Ala-D-Ala",
+    "drug_class": "Glycopeptides",
+    "associated_antibiotics": ["Vancomycin", "Teicoplanin"],
+    "evidence_level": "High (vancomycin resistance)",
+    "database_source": "CARD / ResFinder"
+  }
+]
